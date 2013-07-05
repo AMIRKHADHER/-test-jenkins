@@ -1,0 +1,15 @@
+<div id="content">
+    <h1>Welcome to the <span>Booking Application</span></h1>
+
+    <p>Choose one of the following options:</p>
+    <ul>
+        <li><a href="<?php echo $this->url(
+            array('controller'=>'bookings', 'action'=>'view'),
+            'default',
+            true) ?>"> View bookings</a></li>
+        <li><a href="<?php echo $this->url(
+            array('controller'=>'bookings', 'action'=>'create'),
+            'default',
+            true) ?>"> Make a booking</a></li>
+    </ul>
+</div>

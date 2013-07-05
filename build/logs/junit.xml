@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Bookings" tests="4" assertions="16" failures="0" errors="0" time="0.034533">
+    <testsuite name="BookingsControllerTest" file="/root/jenkins/bookings/tests/application/controllers/BookingsControllerTest.php" tests="3" assertions="12" failures="0" errors="0" time="0.031165">
+      <testcase name="testIndexAction" class="BookingsControllerTest" file="/root/jenkins/bookings/tests/application/controllers/BookingsControllerTest.php" line="12" assertions="4" time="0.024929"/>
+      <testcase name="testCreateAction" class="BookingsControllerTest" file="/root/jenkins/bookings/tests/application/controllers/BookingsControllerTest.php" line="28" assertions="4" time="0.003242"/>
+      <testcase name="testViewAction" class="BookingsControllerTest" file="/root/jenkins/bookings/tests/application/controllers/BookingsControllerTest.php" line="44" assertions="4" time="0.002994"/>
+    </testsuite>
+    <testsuite name="IndexControllerTest" file="/root/jenkins/bookings/tests/application/controllers/IndexControllerTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.003368">
+      <testcase name="testIndexAction" class="IndexControllerTest" file="/root/jenkins/bookings/tests/application/controllers/IndexControllerTest.php" line="12" assertions="4" time="0.003368"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

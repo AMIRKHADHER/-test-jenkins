@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>7</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/root/jenkins/bookings/application/Bootstrap.php">Bootstrap</Class>
+        <Class sourceFile="/root/jenkins/bookings/application/controllers/BookingsController.php">BookingsController</Class>
+        <Class sourceFile="/root/jenkins/bookings/application/controllers/ErrorController.php">ErrorController</Class>
+        <Class sourceFile="/root/jenkins/bookings/application/controllers/IndexController.php">IndexController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+spl</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>
